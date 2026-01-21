@@ -36,6 +36,6 @@ BTC_FLASH_MOVE_PCT = 0.02  # 2% move in 15 min = danger
 EXTREME_FUNDING_RATE = 0.15
 
 # Backtest Settings
-BACKTEST_START_DATE = "2024-01-01"
-BACKTEST_END_DATE = "2024-12-31"
+BACKTEST_START_DATE = "2024-12-01"  # More realistic: last 2 months
+BACKTEST_END_DATE = "2025-01-21"    # Or use shorter range based on API limits
 BACKTEST_INITIAL_CAPITAL = 1000
