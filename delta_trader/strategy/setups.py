@@ -120,7 +120,7 @@ class SetupDetector:
         distance_to_ema = (current_price - ema_21) / ema_21
 
         # Calculate ATR for stops/targets
-        atr_value = atr(df, ATR_PERIOD).iloc[-1] if USE_ATR_BASED_EXITS else None
+        atr_value = atr(df["high"], df["low"], df["close"], ATR_PERIOD).iloc[-1] if USE_ATR_BASED_EXITS else None
 
         # Entry confirmation check (if enabled)
         if REQUIRE_ENTRY_CONFIRMATION and FEATURES.get("entry_confirmation", False):
@@ -224,7 +224,7 @@ class SetupDetector:
         low_20 = rolling_low(low, 20).iloc[-2]
 
         # Calculate ATR for stops/targets
-        atr_value = atr(df, ATR_PERIOD).iloc[-1] if USE_ATR_BASED_EXITS else None
+        atr_value = atr(df["high"], df["low"], df["close"], ATR_PERIOD).iloc[-1] if USE_ATR_BASED_EXITS else None
 
         if current_price > high_20:
             # Calculate stop and target
@@ -290,7 +290,7 @@ class SetupDetector:
         recent_high = rolling_high(high, 5).iloc[-1]
 
         # Calculate ATR for stops/targets
-        atr_value = atr(df, ATR_PERIOD).iloc[-1] if USE_ATR_BASED_EXITS else None
+        atr_value = atr(df["high"], df["low"], df["close"], ATR_PERIOD).iloc[-1] if USE_ATR_BASED_EXITS else None
 
         if rsi_value < 30 and current_price > recent_low:
             # Calculate stop and target

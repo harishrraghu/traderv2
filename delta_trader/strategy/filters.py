@@ -99,7 +99,7 @@ class MarketFilters:
 
         # Check 1: ATR percentile
         close = df["close"]
-        atr_values = atr(df, 14)
+        atr_values = atr(df["high"], df["low"], df["close"], 14)
 
         if len(atr_values) < 50:
             return False, "Insufficient ATR data"
