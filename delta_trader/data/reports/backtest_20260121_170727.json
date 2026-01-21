@@ -1,0 +1,5456 @@
+{
+  "summary": {
+    "initial_capital": 1000,
+    "final_capital": 995.5353739092177,
+    "total_return_pct": -0.004464626090782304,
+    "total_pnl_inr": -4.464626090782303,
+    "total_trades": 96,
+    "winning_trades": 15,
+    "losing_trades": 81,
+    "win_rate": 0.15625,
+    "profit_factor": 0.9671209820885177,
+    "avg_winner_pct": 0.004377496494573128,
+    "avg_loser_pct": -0.0008382069193084961,
+    "max_drawdown_pct": -0.046985843482051516,
+    "avg_trade_duration_min": 159.375,
+    "best_trade_pct": 0.014999999999999966,
+    "worst_trade_pct": -0.021510642095399612
+  },
+  "by_setup_type": {
+    "EMA_PULLBACK_SHORT": {
+      "trades": 65,
+      "win_rate": 0.07692307692307693,
+      "total_pnl_inr": -13.891989871324636,
+      "avg_pnl_pct": -0.00010686146054865109
+    },
+    "EMA_PULLBACK_LONG": {
+      "trades": 24,
+      "win_rate": 0.3333333333333333,
+      "total_pnl_inr": 47.752815098002145,
+      "avg_pnl_pct": 0.0009948503145417115
+    },
+    "BREAKOUT_LONG": {
+      "trades": 5,
+      "win_rate": 0.2,
+      "total_pnl_inr": -41.31862429819187,
+      "avg_pnl_pct": -0.004131862429819189
+    },
+    "BREAKOUT_SHORT": {
+      "trades": 2,
+      "win_rate": 0.5,
+      "total_pnl_inr": 2.9931729807318224,
+      "avg_pnl_pct": 0.0007482932451829557
+    }
+  },
+  "by_symbol": {
+    "BTCUSDT": {
+      "trades": 57,
+      "win_rate": 0.21052631578947367,
+      "total_pnl_inr": -5.230222999002292,
+      "avg_pnl_pct": -4.587914911405533e-05
+    },
+    "ETHUSDT": {
+      "trades": 38,
+      "win_rate": 0.07894736842105263,
+      "total_pnl_inr": 0.765596908219754,
+      "avg_pnl_pct": 1.0073643529207279e-05
+    },
+    "XRPUSDT": {
+      "trades": 1,
+      "win_rate": 0.0,
+      "total_pnl_inr": 0.0,
+      "avg_pnl_pct": 0.0
+    }
+  },
+  "by_direction": {
+    "SHORT": {
+      "trades": 67,
+      "win_rate": 0.08955223880597014,
+      "total_pnl_inr": -10.898816890592812,
+      "avg_pnl_pct": -8.133445440740911e-05
+    },
+    "LONG": {
+      "trades": 29,
+      "win_rate": 0.3103448275862069,
+      "total_pnl_inr": 6.43419079981027,
+      "avg_pnl_pct": 0.00011093432413465985
+    }
+  },
+  "trades": [
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 88228.2,
+      "exit_time": {},
+      "exit_price": 88228.2,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 88228.2,
+      "exit_time": {},
+      "exit_price": 88228.2,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 88228.2,
+      "exit_time": {},
+      "exit_price": 88228.2,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 88228.2,
+      "exit_time": {},
+      "exit_price": 88228.2,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 88228.2,
+      "exit_time": {},
+      "exit_price": 88228.2,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 88228.2,
+      "exit_time": {},
+      "exit_price": 88228.2,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 88228.2,
+      "exit_time": {},
+      "exit_price": 86912.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 29.824931257806398,
+      "pnl_pct": 0.014912465628903198
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 86912.5,
+      "exit_time": {},
+      "exit_price": 86912.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 86912.5,
+      "exit_time": {},
+      "exit_price": 87400.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -11.21817920322163,
+      "pnl_pct": -0.005609089601610815
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87400.0,
+      "exit_time": {},
+      "exit_price": 87400.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87400.0,
+      "exit_time": {},
+      "exit_price": 87400.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87400.0,
+      "exit_time": {},
+      "exit_price": 87039.9,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -8.240274599542467,
+      "pnl_pct": -0.004120137299771233
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87039.9,
+      "exit_time": {},
+      "exit_price": 87144.4,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -2.4011976116700504,
+      "pnl_pct": -0.0012005988058350252
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2968.0,
+      "exit_time": {},
+      "exit_price": 2968.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87369.8,
+      "exit_time": {},
+      "exit_price": 87369.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2911.5,
+      "exit_time": {},
+      "exit_price": 2911.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87369.8,
+      "exit_time": {},
+      "exit_price": 87369.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2911.5,
+      "exit_time": {},
+      "exit_price": 2911.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87369.8,
+      "exit_time": {},
+      "exit_price": 87369.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2911.5,
+      "exit_time": {},
+      "exit_price": 2911.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87369.8,
+      "exit_time": {},
+      "exit_price": 87732.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 8.29119444018407,
+      "pnl_pct": 0.004145597220092035
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2911.5,
+      "exit_time": {},
+      "exit_price": 2911.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87732.0,
+      "exit_time": {},
+      "exit_price": 87341.6,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -8.899831304426986,
+      "pnl_pct": -0.004449915652213493
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2911.5,
+      "exit_time": {},
+      "exit_price": 2916.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -3.434655675768504,
+      "pnl_pct": -0.001717327837884252
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87341.6,
+      "exit_time": {},
+      "exit_price": 87341.6,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2916.5,
+      "exit_time": {},
+      "exit_price": 2916.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87341.6,
+      "exit_time": {},
+      "exit_price": 87341.6,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 2950.0,
+      "exit_time": {},
+      "exit_price": 2950.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87341.6,
+      "exit_time": {},
+      "exit_price": 87341.6,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 2950.0,
+      "exit_time": {},
+      "exit_price": 2950.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87341.6,
+      "exit_time": {},
+      "exit_price": 87788.48457041814,
+      "exit_reason": "STOP",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -10.23302917322626,
+      "pnl_pct": -0.00511651458661313
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 2950.0,
+      "exit_time": {},
+      "exit_price": 2950.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "BREAKOUT_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 88982.1,
+      "exit_time": {},
+      "exit_price": 88982.1,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 2950.0,
+      "exit_time": {},
+      "exit_price": 2959.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 6.101694915254237,
+      "pnl_pct": 0.0030508474576271187
+    },
+    {
+      "symbol": "XRPUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 1.8677,
+      "exit_time": {},
+      "exit_price": 1.8677,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 2959.0,
+      "exit_time": {},
+      "exit_price": 2968.25,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 6.25211220006759,
+      "pnl_pct": 0.0031260561000337954
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 88718.9,
+      "exit_time": {},
+      "exit_price": 88718.9,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 2968.25,
+      "exit_time": {},
+      "exit_price": 2971.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 1.8529436536679862,
+      "pnl_pct": 0.0009264718268339931
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87188.8,
+      "exit_time": {},
+      "exit_price": 87188.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2918.75,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 2918.75,
+      "exit_time": {},
+      "exit_price": 2933.3532332887366,
+      "exit_reason": "STOP",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -10.006498185001556,
+      "pnl_pct": -0.005003249092500778
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87942.5,
+      "exit_time": {},
+      "exit_price": 87942.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87942.5,
+      "exit_time": {},
+      "exit_price": 87942.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87942.5,
+      "exit_time": {},
+      "exit_price": 87942.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87942.5,
+      "exit_time": {},
+      "exit_price": 89261.6375,
+      "exit_reason": "TP",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 29.999999999999932,
+      "pnl_pct": 0.014999999999999966
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "BREAKOUT_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 89644.0,
+      "exit_time": {},
+      "exit_price": 87715.7,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -43.02128419079922,
+      "pnl_pct": -0.021510642095399612
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "BREAKOUT_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87715.7,
+      "exit_time": {},
+      "exit_price": 87052.2,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 15.128420567811691,
+      "pnl_pct": 0.007564210283905846
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "BREAKOUT_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87052.2,
+      "exit_time": {},
+      "exit_price": 87580.4,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -12.135247587079869,
+      "pnl_pct": -0.006067623793539935
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87580.4,
+      "exit_time": {},
+      "exit_price": 87550.7,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.6782339427542484,
+      "pnl_pct": 0.00033911697137712423
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87550.7,
+      "exit_time": {},
+      "exit_price": 87353.3,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 4.509387132255806,
+      "pnl_pct": 0.0022546935661279027
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87353.3,
+      "exit_time": {},
+      "exit_price": 87279.7,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 1.685110923113513,
+      "pnl_pct": 0.0008425554615567565
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87173.7,
+      "exit_time": {},
+      "exit_price": 87090.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 1.9203039448823922,
+      "pnl_pct": 0.000960151972441196
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87090.0,
+      "exit_time": {},
+      "exit_price": 87385.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -6.774600987484212,
+      "pnl_pct": -0.003387300493742106
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87385.0,
+      "exit_time": {},
+      "exit_price": 87385.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_SHORT",
+      "direction": "SHORT",
+      "entry_time": {},
+      "entry_price": 87385.0,
+      "exit_time": {},
+      "exit_price": 87753.84318203115,
+      "exit_reason": "STOP",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -8.441796235764777,
+      "pnl_pct": -0.004220898117882389
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "BREAKOUT_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87843.2,
+      "exit_time": {},
+      "exit_price": 87948.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 2.3860697242359774,
+      "pnl_pct": 0.0011930348621179887
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87948.0,
+      "exit_time": {},
+      "exit_price": 87936.8,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -0.25469595670162115,
+      "pnl_pct": -0.0001273479783508106
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 87936.8,
+      "exit_time": {},
+      "exit_price": 88673.0,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 16.743843305646717,
+      "pnl_pct": 0.008371921652823359
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "BREAKOUT_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 88673.0,
+      "exit_time": {},
+      "exit_price": 88642.7,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -0.6834098316286336,
+      "pnl_pct": -0.00034170491581431676
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 88642.7,
+      "exit_time": {},
+      "exit_price": 88197.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": -10.04482038566057,
+      "pnl_pct": -0.005022410192830285
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 88197.5,
+      "exit_time": {},
+      "exit_price": 88229.6,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.7279117888830369,
+      "pnl_pct": 0.0003639558944415184
+    },
+    {
+      "symbol": "ETHUSDT",
+      "setup_type": "BREAKOUT_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 2965.5,
+      "exit_time": {},
+      "exit_price": 2965.5,
+      "exit_reason": "TIME",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "setup_type": "EMA_PULLBACK_LONG",
+      "direction": "LONG",
+      "entry_time": {},
+      "entry_price": 88229.6,
+      "exit_time": {},
+      "exit_price": 88460.0,
+      "exit_reason": "END",
+      "position_size_inr": 2000.0,
+      "pnl_inr": 5.222737040630223,
+      "pnl_pct": 0.0026113685203151115
+    }
+  ],
+  "equity_curve": [
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.0,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1029.8249312578064,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1018.6067520545847,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1010.3664774550423,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.9652798433723,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1016.2564742835564,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1003.9219873033609,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.6889581301347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.7906530453889,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1006.0427652454565,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 0
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1007.8957088991245,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 997.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1027.889210714123,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 984.8679265233238,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.9963470911355,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 987.8610995040556,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 988.5393334468098,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 993.0487205790656,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 1
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 994.7338315021791,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 996.6541354470615,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.8795344595774,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 981.4377382238126,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.8238079480486,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 983.569111991347,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 1000.3129552969937,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 999.629545465365,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 989.5847250797044,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    },
+    {
+      "timestamp": {},
+      "capital": 990.3126368685874,
+      "open_positions": 2
+    }
+  ]
+}
