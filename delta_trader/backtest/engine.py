@@ -13,7 +13,11 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from strategy.setups import SetupDetector
 from risk.position_sizing import calculate_position
-from config.settings import CAPITAL_INR, MAX_POSITIONS, MAX_DAILY_TRADES
+from config.settings import (
+    CAPITAL_INR, MAX_POSITIONS, MAX_DAILY_TRADES,
+    COOLDOWN_ENABLED, COOLDOWN_AFTER_ENTRY_CANDLES, COOLDOWN_AFTER_EXIT_CANDLES,
+    COOLDOWN_AFTER_LOSS_CANDLES, MIN_CANDLES_BETWEEN_ANY_TRADE
+)
 
 
 @dataclass
@@ -46,6 +50,10 @@ class BacktestEngine:
         self.trades: List[BacktestTrade] = []
         self.equity_curve: List[Dict] = []
 
+        # Cooldown tracking: {symbol: candle_count_when_available}
+        self.symbol_cooldowns: Dict[str, int] = {}
+        self.last_trade_candle: int = 0
+
     def run(
         self,
         data: Dict[str, pd.DataFrame],  # {symbol: DataFrame}
@@ -66,6 +74,8 @@ class BacktestEngine:
         self.capital = self.initial_capital
         self.trades = []
         self.equity_curve = []
+        self.symbol_cooldowns = {}
+        self.last_trade_candle = 0
 
         # Get all timestamps across all symbols
         all_timestamps = set()
@@ -111,6 +121,13 @@ class BacktestEngine:
                         self.capital += trade.pnl_inr
                         del open_positions[symbol]
 
+                        # Set cooldown after exit
+                        if COOLDOWN_ENABLED:
+                            cooldown_candles = COOLDOWN_AFTER_EXIT_CANDLES
+                            if trade.pnl_pct < 0:  # Extra cooldown for losses
+                                cooldown_candles = COOLDOWN_AFTER_LOSS_CANDLES
+                            self.symbol_cooldowns[symbol] = i + cooldown_candles
+
             # Look for new setups if we have capacity
             if len(open_positions) < MAX_POSITIONS and daily_trades < MAX_DAILY_TRADES:
                 for symbol, df in data.items():
@@ -119,6 +136,16 @@ class BacktestEngine:
 
                     if timestamp not in df.index:
                         continue
+
+                    # Check cooldown
+                    if COOLDOWN_ENABLED:
+                        # Global cooldown between any trades
+                        if i < self.last_trade_candle + MIN_CANDLES_BETWEEN_ANY_TRADE:
+                            continue
+
+                        # Symbol-specific cooldown
+                        if symbol in self.symbol_cooldowns and i < self.symbol_cooldowns[symbol]:
+                            continue
 
                     # Get data up to current timestamp
                     idx = df.index.get_loc(timestamp)
@@ -144,6 +171,11 @@ class BacktestEngine:
                         }
 
                         daily_trades += 1
+
+                        # Set cooldown after entry
+                        if COOLDOWN_ENABLED:
+                            self.symbol_cooldowns[symbol] = i + COOLDOWN_AFTER_ENTRY_CANDLES
+                            self.last_trade_candle = i
 
                         if len(open_positions) >= MAX_POSITIONS:
                             break
